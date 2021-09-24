@@ -26,6 +26,10 @@
 		FA66795E26FDC1A800688D7D /* LandMarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA66795D26FDC1A800688D7D /* LandMarks.plist */; };
 		FA66795F26FDC1A800688D7D /* LandMarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA66795D26FDC1A800688D7D /* LandMarks.plist */; };
 		FA66796026FDC1A800688D7D /* LandMarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA66795D26FDC1A800688D7D /* LandMarks.plist */; };
+		FA66796326FDED7800688D7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796226FDED7800688D7D /* DetailViewController.m */; };
+		FA66796426FDED7800688D7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796226FDED7800688D7D /* DetailViewController.m */; };
+		FA66796526FDED7800688D7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796226FDED7800688D7D /* DetailViewController.m */; };
+		FA66796826FDEE5700688D7D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA66796726FDEE5700688D7D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,9 @@
 		FA66795826FDBCB400688D7D /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		FA66795926FDBCB400688D7D /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		FA66795D26FDC1A800688D7D /* LandMarks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LandMarks.plist; sourceTree = "<group>"; };
+		FA66796126FDED7800688D7D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FA66796226FDED7800688D7D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FA66796726FDEE5700688D7D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66796826FDEE5700688D7D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +109,7 @@
 				FA66793926FDBACA00688D7D /* LondonLandMarksTests */,
 				FA66794326FDBACA00688D7D /* LondonLandMarksUITests */,
 				FA66791926FDBAC500688D7D /* Products */,
+				FA66796626FDEE5700688D7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +134,8 @@
 				FA66795426FDBC8500688D7D /* TableViewController.m */,
 				FA66795826FDBCB400688D7D /* TableViewCell.h */,
 				FA66795926FDBCB400688D7D /* TableViewCell.m */,
+				FA66796126FDED7800688D7D /* DetailViewController.h */,
+				FA66796226FDED7800688D7D /* DetailViewController.m */,
 				FA66792426FDBAC500688D7D /* Main.storyboard */,
 				FA66792A26FDBAC900688D7D /* Assets.xcassets */,
 				FA66792C26FDBAC900688D7D /* LaunchScreen.storyboard */,
@@ -151,6 +162,14 @@
 				FA66794626FDBACA00688D7D /* LondonLandMarksUITestsLaunchTests.m */,
 			);
 			path = LondonLandMarksUITests;
+			sourceTree = "<group>";
+		};
+		FA66796626FDEE5700688D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA66796726FDEE5700688D7D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +311,7 @@
 				FA66792026FDBAC500688D7D /* SceneDelegate.m in Sources */,
 				FA66795526FDBC8500688D7D /* TableViewController.m in Sources */,
 				FA66792926FDBAC500688D7D /* LondonLandMarks.xcdatamodeld in Sources */,
+				FA66796326FDED7800688D7D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				FA66793B26FDBACA00688D7D /* LondonLandMarksTests.m in Sources */,
 				FA66795B26FDBCB400688D7D /* TableViewCell.m in Sources */,
 				FA66795626FDBC8500688D7D /* TableViewController.m in Sources */,
+				FA66796426FDED7800688D7D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66796526FDED7800688D7D /* DetailViewController.m in Sources */,
 				FA66794726FDBACA00688D7D /* LondonLandMarksUITestsLaunchTests.m in Sources */,
 				FA66795C26FDBCB400688D7D /* TableViewCell.m in Sources */,
 				FA66795726FDBC8500688D7D /* TableViewController.m in Sources */,

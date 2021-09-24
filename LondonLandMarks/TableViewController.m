@@ -7,6 +7,7 @@
 
 #import "TableViewController.h"
 #import "TableViewCell.h"
+#import "DetailViewController.h"
 
 @interface TableViewController ()
 
@@ -22,6 +23,8 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"LandMarks" ofType:@"plist"];
     NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
     dataSelect = dictionary[@"Places"];
+    
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil]];
     
 }
 
@@ -86,14 +89,23 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    if([[segue identifier] isEqualToString:@"showDetail"]){
+        
+        DetailViewController *detailView = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSDictionary *dictionary = dataSelect[indexPath.row];
+        detailView.detailModal = @[dictionary[@"Title"]];
+        
+        
+    }
+    
 }
-*/
+
 
 @end
