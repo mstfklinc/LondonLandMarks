@@ -21,6 +21,11 @@
     self.button.layer.cornerRadius = 5;
     
     self.navigationItem.title = self.detailModal[0];
+    
+    self.detailTitle.text = self.detailModal[0];
+    self.detailAddress.text = self.detailModal[1];
+    self.detailImage.image = [UIImage imageNamed:self.detailModal[2]];
+    self.detailDescription.text = self.detailModal[3];
 }
 
 /*

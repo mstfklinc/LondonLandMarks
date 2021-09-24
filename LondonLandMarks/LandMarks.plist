@@ -5,6 +5,8 @@
 	<key>Places</key>
 	<array>
 		<dict>
+			<key>Description</key>
+			<string>Big Ben, Londra&apos;da Westminster Sarayı&apos;nın yanındaki ünlü saat kulesi. Dünyanın en büyük ikinci dört yüzlü saatidir. &quot;Big Ben&quot; aslında saat kulesinin çanının adıdır, ancak zamanla halk tarafından tüm yapıyı belirtmek için kullanılır olmuştur.</string>
 			<key>Image</key>
 			<string>BigBen</string>
 			<key>Adress</key>
@@ -13,6 +15,8 @@
 			<string>Big Ben</string>
 		</dict>
 		<dict>
+			<key>Description</key>
+			<string>Buckingham Sarayı, Birleşik Krallık hükümdarlarının yönetim merkezi ve Londra&apos;daki ikametgahı. Westminster Şehri&apos;nde bulunan saray sık sık devlet işlerinde ve yabancı devlet insanlarının ağırlanmasında kullanılır.</string>
 			<key>Image</key>
 			<string>BuckinghamPalace</string>
 			<key>Adress</key>
@@ -21,6 +25,8 @@
 			<string>Buckingham Palace</string>
 		</dict>
 		<dict>
+			<key>Description</key>
+			<string>Merlin Entertainments London Eye, 135 metre yükseklikte, Avrupa&apos;da bilinen en yüksek dönme dolaptır. Birleşik Krallık&apos;ın en popüler turistik mekanı olmak üzere yılda üç milyona yakın turist ziyaret eder.</string>
 			<key>Image</key>
 			<string>LondonEye</string>
 			<key>Adress</key>
@@ -29,6 +35,8 @@
 			<string>London Eye</string>
 		</dict>
 		<dict>
+			<key>Description</key>
+			<string>Aziz Paul Katedrali veya Paul Katedrali (İngilizce: St Paul&apos;s Cathedral), İngiltere&apos;nin başkenti Londra&apos;da bulunan Anglikan katedrali ve Londra Piskoposluğunun merkezidir.</string>
 			<key>Image</key>
 			<string>St-Pauls</string>
 			<key>Adress</key>
@@ -37,6 +45,8 @@
 			<string>St Pauls Cathedral</string>
 		</dict>
 		<dict>
+			<key>Description</key>
+			<string>Tower Bridge, Birleşik Krallık&apos;ın Londra şehrinde Thames Nehri üzerinde yer alan iki katlı bir açılır kapanır köprüdür. Yıllar boyunca, İngiliz başkenti nehir üzerinde kentin iki yakasındaki trafiği birleştirmiştir.</string>
 			<key>Image</key>
 			<string>TowerBridge</string>
 			<key>Adress</key>
@@ -45,6 +55,8 @@
 			<string>Tower Bridge</string>
 		</dict>
 		<dict>
+			<key>Description</key>
+			<string>Westminster Abbey ya da resmi adı ile Westminster&apos;deki Aziz Peter Kilisesi, Londra&apos;nın Westminster kentinde, Westminster Sarayı&apos;nın batısında, büyük, Gotik bir manastır kilisesi.</string>
 			<key>Image</key>
 			<string>WestminsterAbbey</string>
 			<key>Adress</key>

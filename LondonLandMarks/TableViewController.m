@@ -50,6 +50,7 @@
     cell.cellTitle.text = dictionary[@"Title"];
     cell.cellAdress.text = dictionary[@"Adress"];
     cell.cellImage.image = [UIImage imageNamed:dictionary[@"Image"]];
+    
      
     return cell;
 }
@@ -100,7 +101,10 @@
         DetailViewController *detailView = [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDictionary *dictionary = dataSelect[indexPath.row];
-        detailView.detailModal = @[dictionary[@"Title"]];
+        detailView.detailModal = @[dictionary[@"Title"],
+                                   dictionary[@"Adress"],
+                                   dictionary[@"Image"],
+                                   dictionary[@"Description"]];
         
         
     }
