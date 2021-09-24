@@ -30,6 +30,9 @@
 		FA66796426FDED7800688D7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796226FDED7800688D7D /* DetailViewController.m */; };
 		FA66796526FDED7800688D7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796226FDED7800688D7D /* DetailViewController.m */; };
 		FA66796826FDEE5700688D7D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA66796726FDEE5700688D7D /* MapKit.framework */; };
+		FA66796B26FE0C3300688D7D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796A26FE0C3300688D7D /* MapPin.m */; };
+		FA66796C26FE0C3300688D7D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796A26FE0C3300688D7D /* MapPin.m */; };
+		FA66796D26FE0C3300688D7D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66796A26FE0C3300688D7D /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,8 @@
 		FA66796126FDED7800688D7D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		FA66796226FDED7800688D7D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FA66796726FDEE5700688D7D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA66796926FE0C3300688D7D /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		FA66796A26FE0C3300688D7D /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,8 @@
 				FA66795926FDBCB400688D7D /* TableViewCell.m */,
 				FA66796126FDED7800688D7D /* DetailViewController.h */,
 				FA66796226FDED7800688D7D /* DetailViewController.m */,
+				FA66796926FE0C3300688D7D /* MapPin.h */,
+				FA66796A26FE0C3300688D7D /* MapPin.m */,
 				FA66792426FDBAC500688D7D /* Main.storyboard */,
 				FA66792A26FDBAC900688D7D /* Assets.xcassets */,
 				FA66792C26FDBAC900688D7D /* LaunchScreen.storyboard */,
@@ -305,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66796B26FE0C3300688D7D /* MapPin.m in Sources */,
 				FA66793126FDBAC900688D7D /* main.m in Sources */,
 				FA66795A26FDBCB400688D7D /* TableViewCell.m in Sources */,
 				FA66791D26FDBAC500688D7D /* AppDelegate.m in Sources */,
@@ -320,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA66793B26FDBACA00688D7D /* LondonLandMarksTests.m in Sources */,
+				FA66796C26FE0C3300688D7D /* MapPin.m in Sources */,
 				FA66795B26FDBCB400688D7D /* TableViewCell.m in Sources */,
 				FA66795626FDBC8500688D7D /* TableViewController.m in Sources */,
 				FA66796426FDED7800688D7D /* DetailViewController.m in Sources */,
@@ -330,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66796D26FE0C3300688D7D /* MapPin.m in Sources */,
 				FA66796526FDED7800688D7D /* DetailViewController.m in Sources */,
 				FA66794726FDBACA00688D7D /* LondonLandMarksUITestsLaunchTests.m in Sources */,
 				FA66795C26FDBCB400688D7D /* TableViewCell.m in Sources */,

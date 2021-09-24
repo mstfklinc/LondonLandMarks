@@ -104,7 +104,9 @@
         detailView.detailModal = @[dictionary[@"Title"],
                                    dictionary[@"Adress"],
                                    dictionary[@"Image"],
-                                   dictionary[@"Description"]];
+                                   dictionary[@"Description"],
+                                   dictionary[@"Latitude"],
+                                   dictionary[@"Longitude"]];
         
         
     }

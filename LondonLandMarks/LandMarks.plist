@@ -13,8 +13,16 @@
 			<string>London SW1A 0AA</string>
 			<key>Title</key>
 			<string>Big Ben</string>
+			<key>Latitude</key>
+			<string>51.50084269849416</string>
+			<key>Longitude</key>
+			<string>-0.12464685270944995</string>
 		</dict>
 		<dict>
+			<key>Latitude</key>
+			<string>51.501517567482324</string>
+			<key>Longitude</key>
+			<string>-0.14183634853396304</string>
 			<key>Description</key>
 			<string>Buckingham Sarayı, Birleşik Krallık hükümdarlarının yönetim merkezi ve Londra&apos;daki ikametgahı. Westminster Şehri&apos;nde bulunan saray sık sık devlet işlerinde ve yabancı devlet insanlarının ağırlanmasında kullanılır.</string>
 			<key>Image</key>
@@ -25,6 +33,10 @@
 			<string>Buckingham Palace</string>
 		</dict>
 		<dict>
+			<key>Longitude</key>
+			<string>-0.11880126411365864</string>
+			<key>Latitude</key>
+			<string>51.50208466638095</string>
 			<key>Description</key>
 			<string>Merlin Entertainments London Eye, 135 metre yükseklikte, Avrupa&apos;da bilinen en yüksek dönme dolaptır. Birleşik Krallık&apos;ın en popüler turistik mekanı olmak üzere yılda üç milyona yakın turist ziyaret eder.</string>
 			<key>Image</key>
@@ -35,6 +47,10 @@
 			<string>London Eye</string>
 		</dict>
 		<dict>
+			<key>Longitude</key>
+			<string>-0.09830767742809327</string>
+			<key>Latitude</key>
+			<string>51.51399882561814</string>
 			<key>Description</key>
 			<string>Aziz Paul Katedrali veya Paul Katedrali (İngilizce: St Paul&apos;s Cathedral), İngiltere&apos;nin başkenti Londra&apos;da bulunan Anglikan katedrali ve Londra Piskoposluğunun merkezidir.</string>
 			<key>Image</key>
@@ -45,6 +61,10 @@
 			<string>St Pauls Cathedral</string>
 		</dict>
 		<dict>
+			<key>Longitude</key>
+			<string>-0.07535649268344677</string>
+			<key>Latitude</key>
+			<string>51.50561663276377</string>
 			<key>Description</key>
 			<string>Tower Bridge, Birleşik Krallık&apos;ın Londra şehrinde Thames Nehri üzerinde yer alan iki katlı bir açılır kapanır köprüdür. Yıllar boyunca, İngiliz başkenti nehir üzerinde kentin iki yakasındaki trafiği birleştirmiştir.</string>
 			<key>Image</key>
@@ -55,6 +75,10 @@
 			<string>Tower Bridge</string>
 		</dict>
 		<dict>
+			<key>Longitude</key>
+			<string>-0.12195376443705772</string>
+			<key>Latitude</key>
+			<string>51.501010691245945</string>
 			<key>Description</key>
 			<string>Westminster Abbey ya da resmi adı ile Westminster&apos;deki Aziz Peter Kilisesi, Londra&apos;nın Westminster kentinde, Westminster Sarayı&apos;nın batısında, büyük, Gotik bir manastır kilisesi.</string>
 			<key>Image</key>
