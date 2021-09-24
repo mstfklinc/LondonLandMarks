@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Places</key>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>BigBen</string>
+			<key>Adress</key>
+			<string>London SW1A 0AA</string>
+			<key>Title</key>
+			<string>Big Ben</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>BuckinghamPalace</string>
+			<key>Adress</key>
+			<string>London SW1A 1AA</string>
+			<key>Title</key>
+			<string>Buckingham Palace</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>LondonEye</string>
+			<key>Adress</key>
+			<string>London SE1 7PB</string>
+			<key>Title</key>
+			<string>London Eye</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>St-Pauls</string>
+			<key>Adress</key>
+			<string>London EC4M 8AD</string>
+			<key>Title</key>
+			<string>St Pauls Cathedral</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>TowerBridge</string>
+			<key>Adress</key>
+			<string>London SE1 2UP</string>
+			<key>Title</key>
+			<string>Tower Bridge</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>WestminsterAbbey</string>
+			<key>Adress</key>
+			<string>London SW1P 3PA</string>
+			<key>Title</key>
+			<string>Westminster Abbey</string>
+		</dict>
+	</array>
+</dict>
+</plist>

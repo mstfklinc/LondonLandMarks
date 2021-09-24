@@ -1,24 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UUV-It-2dN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--LANDON LANDMARKS-->
+        <scene sceneID="qK8-Gr-CrS">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <tableViewController id="lBN-53-RR2" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="xQp-GQ-gQO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="187" id="vQh-iw-cTg" customClass="TableViewCell">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="187"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vQh-iw-cTg" id="fRa-NM-V35">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="187"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigBen" translatesAutoresizingMaskIntoConstraints="NO" id="ex5-al-9e3">
+                                            <rect key="frame" x="0.0" y="11" width="174" height="165"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="165" id="LhW-ZK-ejG"/>
+                                                <constraint firstAttribute="width" constant="174" id="MOg-UI-qYX"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qy5-ja-sNe">
+                                            <rect key="frame" x="201" y="33" width="193" height="57"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" name="AccentColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8H-rh-eF1">
+                                            <rect key="frame" x="201" y="98" width="193" height="57"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Qy5-ja-sNe" firstAttribute="leading" secondItem="ex5-al-9e3" secondAttribute="trailing" constant="27" id="15b-qc-qB5"/>
+                                        <constraint firstItem="F8H-rh-eF1" firstAttribute="leading" secondItem="ex5-al-9e3" secondAttribute="trailing" constant="27" id="3ag-dc-DOL"/>
+                                        <constraint firstItem="ex5-al-9e3" firstAttribute="leading" secondItem="fRa-NM-V35" secondAttribute="leadingMargin" constant="-20" id="HBt-xL-EMc"/>
+                                        <constraint firstItem="Qy5-ja-sNe" firstAttribute="top" secondItem="fRa-NM-V35" secondAttribute="topMargin" constant="22" id="Ktu-LV-xm5"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="F8H-rh-eF1" secondAttribute="bottom" constant="21" id="NoR-lK-zwP"/>
+                                        <constraint firstItem="ex5-al-9e3" firstAttribute="bottom" secondItem="fRa-NM-V35" secondAttribute="bottomMargin" id="Vj8-mE-vTL"/>
+                                        <constraint firstItem="ex5-al-9e3" firstAttribute="top" secondItem="fRa-NM-V35" secondAttribute="topMargin" id="c45-UX-QAj"/>
+                                        <constraint firstItem="Qy5-ja-sNe" firstAttribute="trailing" secondItem="fRa-NM-V35" secondAttribute="trailingMargin" id="cNh-nJ-yrF"/>
+                                        <constraint firstItem="F8H-rh-eF1" firstAttribute="top" secondItem="Qy5-ja-sNe" secondAttribute="bottom" constant="8" symbolic="YES" id="faS-yv-5Ws"/>
+                                        <constraint firstItem="F8H-rh-eF1" firstAttribute="height" secondItem="Qy5-ja-sNe" secondAttribute="height" id="gQ3-rf-VFu"/>
+                                        <constraint firstItem="F8H-rh-eF1" firstAttribute="width" secondItem="Qy5-ja-sNe" secondAttribute="width" id="moy-F1-1xw"/>
+                                        <constraint firstItem="F8H-rh-eF1" firstAttribute="trailing" secondItem="fRa-NM-V35" secondAttribute="trailingMargin" id="rAG-xt-Ly6"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellAdress" destination="F8H-rh-eF1" id="GdI-zh-Pl0"/>
+                                    <outlet property="cellImage" destination="ex5-al-9e3" id="KVd-Wr-ONi"/>
+                                    <outlet property="cellTitle" destination="Qy5-ja-sNe" id="ljc-K2-Ekv"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lBN-53-RR2" id="9c8-Ue-gEA"/>
+                            <outlet property="delegate" destination="lBN-53-RR2" id="RI5-SF-mu0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="LANDON LANDMARKS" largeTitleDisplayMode="always" id="gtx-m0-6Bc" colorLabel="IBBuiltInLabel-Blue"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7q-zJ-NN1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="1.3392857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hXp-An-wM4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UUV-It-2dN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="7AW-hk-IDV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="AccentColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                            <color key="textColor" systemColor="tintColor"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" systemColor="tintColor"/>
+                        </textAttributes>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lBN-53-RR2" kind="relationship" relationship="rootViewController" id="Bcc-sb-j7O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeL-fq-GGw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="1.3392857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BigBen" width="1000" height="567"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
